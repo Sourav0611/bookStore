@@ -1,0 +1,79 @@
+body{
+    background-image:url("bgx/i5.webp");
+    background-size:cover;
+}
+.box{
+    position: absolute;
+    left:30%;
+    /* top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    width: 500px;
+    padding: 40px;
+    background-image: url("bg.jpg");
+    box-sizing: border-box;
+    background-size: cover;
+    box-shadow:5px 10px 10px 10px yellow ;
+    border-radius: 10px;
+}
+.box h2{
+    margin: 0 0 30px;
+    padding: 0px;
+    color:#380e0e;
+    text-align: center;
+}
+.box .ipbox{
+    position: relative;
+ }
+ .box .ipbox input{
+    width:100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #380e0e;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    outline:none;
+    background: transparent;
+    border-bottom: 1px solid #141414;
+ }
+ label{
+    position: relative;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #330369;
+    
+ }
+ .box .ipbox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #330369;
+    transition: .5s;
+ }
+ .box .ipbox input:focus ~ label,.box .ipbox input:valid ~ label{
+    top:-18px;
+    left:0px;
+    color:#03a9f4;
+    font-size: 12px;
+ }
+textarea,select{
+    background: transparent;
+}
+ #sub{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(8, 8, 8);
+    background: #f39316;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 5px 5px 2px;
+ }
